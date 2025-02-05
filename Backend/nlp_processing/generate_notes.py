@@ -7,9 +7,9 @@ import re
 
 # List of multiple API keys
 API_KEYS = [
-    "AIzaSyCJ4gTQ2jlBBPwLk8S1F5tIXn1F8gffF4I",
-    "AIzaSyAJ54utfYFDhEcSv7TTKvae3SorwgFxRmg",
-    "AIzaSyBtrRmF9SiYPkcdU69bXlBr0-BSaqlzCF0"
+    "API-1",
+    "API-2",
+    "API-3"
 ]
 
 api_key_index = 0
