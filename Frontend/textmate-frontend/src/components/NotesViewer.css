@@ -1,0 +1,28 @@
+/*NotesViewer.css*/
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cornell-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .keywords {
+    grid-row: span 2;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .summary, .analogy {
+    padding: 10px;
+  }
+  

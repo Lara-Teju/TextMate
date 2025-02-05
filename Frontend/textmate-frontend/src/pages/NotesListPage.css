@@ -1,0 +1,67 @@
+/* NotesListPage.css */
+/* src/pages/NotesListPage.css */
+.notes-list-container {
+  background-color: #FEF9E1;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes-list-title {
+  color: #6D2323;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.book-item {
+  background-color: #E5D0AC;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+  transform: scale(1.05);
+}
+
+.book-icon {
+  width: 100px;
+  height: 150px;
+}
+
+.note-title {
+  margin-top: 10px;
+  color: #6D2323;
+  font-weight: bold;
+  text-align: center;
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #6D2323;
+  color: #FEF9E1;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #A31D1D;
+}

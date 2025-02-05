@@ -1,0 +1,55 @@
+/* src/pages/SplashScreen.css */
+.splash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #A31D1D;
+  position: relative;
+  overflow: hidden;
+}
+
+.splash-container img {
+  width: 400px;
+  height: auto;
+  animation: float 4s ease-in-out infinite, pulse 2s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+.splash-container img:hover {
+  transform: scale(1.1);
+}
+
+.splash-container .text-overlay {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
